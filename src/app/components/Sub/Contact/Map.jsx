@@ -105,9 +105,9 @@ export default function Map() {
 
       {/* 주소 및 연락처 정보 */}
       <div className={`${styles.adressWrap} container`}>
-        <div className={styles.infoWrap}>
+        <div className={`${styles.infoWrap} col-lg-3 col-md-3 col-xs-1`}>
           <div
-            className={`${styles.mapInfotxt} col-lg-1 col-md-1 col-xs-1 col-span-15`}
+            className={`${styles.mapInfotxt} col-span-15`}
           >
             <p className={styles.tit} lang="en">
               ADRESS
@@ -119,7 +119,7 @@ export default function Map() {
             </p>
           </div>
           <div
-            className={`${styles.mapInfotxt} col-lg-1 col-md-1 col-xs-1 col-span-15`}
+            className={`${styles.mapInfotxt} col-span-15`}
           >
             <p className={styles.tit} lang="en">
               E-Mail
@@ -129,7 +129,7 @@ export default function Map() {
             </p>
           </div>
           <div
-            className={`${styles.mapInfotxt} col-lg-1 col-md-1 col-xs-1 col-span-15`}
+            className={`${styles.mapInfotxt} col-span-15`}
           >
             <p className={styles.tit} lang="en">
               TEL

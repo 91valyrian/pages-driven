@@ -58,7 +58,7 @@ export default function Footer(information) {
         <div className="container">
           <div className={styles.information}>
             <div className={`${styles.infoList} col-lg-2 col-md-2 col-xs-1`}>
-              <div className={`${styles.box} col-lg-1 col-md-1 col-span-15 `}>
+              <div className={`${styles.box} col-span-15 `}>
                 <div className={styles.txtBox}>
                   <strong>대표</strong>
                   {information.exponent}
